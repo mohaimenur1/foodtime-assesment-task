@@ -71,16 +71,24 @@ input:focus {
 }
 
 .animated {
-  position: absolute;
-  animation: 3s linear 0s slide infinite;
+  animation-name: rightToLeft;
+  animation-duration: 4.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
-@keyframes slide {
-  from {
-    left: 0;
+@keyframes rightToLeft {
+  /* from {
+    right: 0;
   }
   to {
-    left: 100%;
+    right: 100%;
     transform: translateX(-100%);
+  } */
+  0% {
+    transform: translateX(-200px);
+  }
+  100% {
+    transform: translateX(160px);
   }
 }
