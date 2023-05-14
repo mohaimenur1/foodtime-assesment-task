@@ -20,6 +20,13 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.body-section-paragraph {
+  color: #676767;
+  font-family: 'Poppins', sans-serif;
+  font-size: smaller;
+  font-weight: normal;
+}
+
 /* .input-group-text {
   border: 1px solid gainsboro !important;
   border-radius: 30px !important;
@@ -47,4 +54,9 @@
 input:focus {
   border: none !important;
   outline: none !important;
+}
+
+.btn-bg {
+  background-color: #396c03;
+  color: white;
 }
