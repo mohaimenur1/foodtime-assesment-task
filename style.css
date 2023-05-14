@@ -10,6 +10,11 @@
   /* opacity: 0.1; */
 }
 
+.badge-bg {
+  background-color: #ff8b00;
+  color: white;
+}
+
 .header-heading {
   color: #396c03;
   font-family: 'Merienda', cursive;
