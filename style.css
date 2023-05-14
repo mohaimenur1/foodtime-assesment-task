@@ -1,4 +1,10 @@
 /** @format */
+*:focus {
+  outline: 0;
+}
+.bg-body-tertiary {
+  background-color: #f1f4ed !important;
+}
 #header {
   background-color: #f1f4ed;
   /* opacity: 0.1; */
@@ -12,4 +18,33 @@
 .header-paragraph {
   color: #676767;
   font-family: 'Poppins', sans-serif;
+}
+
+/* .input-group-text {
+  border: 1px solid gainsboro !important;
+  border-radius: 30px !important;
+} */
+
+.circle-class {
+  height: 49px;
+  width: 49px;
+  background-color: #ff8b00;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.form-control {
+  background-color: #f1f4ed !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.form-control:focus {
+  border: none !important;
+  outline: none !important;
+}
+
+input:focus {
+  border: none !important;
+  outline: none !important;
 }

@@ -34,7 +34,11 @@
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
           <a class="navbar-brand" href="#"
-            ><img src="img/FoodTime.png" class="img-fluid" alt="" srcset=""
+            ><img
+              src="img/FoodTime.png"
+              class="img-fluid w-50"
+              alt=""
+              srcset=""
           /></a>
           <button
             class="navbar-toggler"
@@ -48,7 +52,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -66,16 +70,25 @@
               </li>
               <li class="nav-item">
                 <button class="btn btn-primary rounded-circle">
-                  <img src="img/cart.png" class="img-fluid" alt="" />
+                  <img src="img/cart.png" class="img-fluid w-50" alt="" />
                 </button>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      <header class="container">
+      <header class="container mt-5">
         <div class="row">
-          <div class="col-md-6 d-flex flex-column justify-content-center">
+          <div
+            class="col-md-6 d-flex flex-column justify-content-center img-h1"
+          >
+            <div class="position-relative mb-5 mt-3">
+              <img
+                src="img/img2.png"
+                class="position-absolute top-0 start-0 translate-middle w-25 ms-4"
+                alt=""
+              />
+            </div>
             <h1 class="header-heading">
               Order food online <br />
               from your favourite <br />
@@ -84,21 +97,39 @@
             <p class="header-paragraph">
               Freshly made food delivered to your door.
             </p>
-            <div class="input-group mb-3">
+            <div
+              class="d-flex justify-content-center align-items-center rounded-pill border border-3 border-opacity-75 p-2"
+            >
+              <span class="circle-class"></span>
               <input
                 type="text"
-                class="form-control"
-                placeholder="Recipient's username"
-                aria-label="Recipient's username"
-                aria-describedby="basic-addon2"
+                class="form-control ms-2"
+                aria-label="Enter your location"
+                placeholder="Enter your location"
               />
-              <span class="input-group-text" id="basic-addon2"
-                >@example.com</span
-              >
+              <button class="btn btn-primary rounded-pill">Search</button>
             </div>
           </div>
-          <div class="col-md-6">
-            <img src="img/img1.png" class="img-fluid" alt="" />
+          <div class="col-md-6 mt-5">
+            <div class="position-relative">
+              <img
+                src="img/img1.png"
+                class="img-fluid z-3 w-75 h-75 position-relative"
+                alt=""
+              />
+              <img
+                src="img/img3.png"
+                class="w-25 z-2 position-absolute top-0 left-0 start-0 translate-middle mt-5 ms-2"
+                alt=""
+                srcset=""
+              />
+              <img
+                src="img/img2.png"
+                alt=""
+                srcset=""
+                class="w-25 z-2 position-absolute top-0 start-2 translate-middle p-2 mt-5"
+              />
+            </div>
           </div>
         </div>
       </header>
