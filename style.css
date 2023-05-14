@@ -1,0 +1,15 @@
+/** @format */
+#header {
+  background-color: #f1f4ed;
+  /* opacity: 0.1; */
+}
+
+.header-heading {
+  color: #396c03;
+  font-family: 'Merienda', cursive;
+}
+
+.header-paragraph {
+  color: #676767;
+  font-family: 'Poppins', sans-serif;
+}
